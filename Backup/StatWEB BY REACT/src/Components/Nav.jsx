@@ -14,4 +14,4 @@ let Nav=()=>{
     
           </nav>
 }
-export default Nav
+export default Nav  //exporting the Nav function /method
