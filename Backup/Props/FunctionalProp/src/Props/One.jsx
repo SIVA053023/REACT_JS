@@ -4,4 +4,4 @@ let One=(props)=>{
             <pre>{JSON.stringify(props)}</pre>
     </div>
 }
-export default One
+export default One  // exporting One method
