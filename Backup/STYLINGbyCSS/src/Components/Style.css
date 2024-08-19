@@ -1,0 +1,5 @@
+button{
+    border: 1px solid red;
+    border-radius: 15px;
+    background: linear-gradient(45deg, red, blue);
+}
