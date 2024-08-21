@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg,black,white);
+    width: 450px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   margin: auto;
+    width: 450px;
+    height: auto;
+    background: linear-gradient(45deg,red,blue);
+    margin-top: 15px;
+    border-radius: 20px;
+}
