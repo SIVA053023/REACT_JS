@@ -22,7 +22,7 @@ Axios.get('https://jsonplaceholder.typicode.com/users')
                  {/* <button onClick={this.get_users} style={{backgroundColor:"green"}}>get_details</button> */}
 
                  {/* Conditional Rendering */}  
-                 this.state.users.length >0 ? <>
+                 this.state.users.length > 0 ? <>
                   <table border={2}>
                         <thead>
                         <th>ID</th>
