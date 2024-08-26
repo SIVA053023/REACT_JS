@@ -1,0 +1,25 @@
+setp 1--->    install req redux dependencies
+
+               npm  i  redux
+                          react-redux
+                          @redux-dev-extension
+
+
+step 2--->   install chrome extension
+             Redux  devTool                    /// to debug redux store states
+
+
+step 3--->    redux folder  in that store.js file
+
+              folder structure
+               src main             files
+
+              index.js
+              App.js
+              messages            message.js  
+              redux                store.js
+              message              message.action.js
+                                   message.reader.js
+
+step 4---->    Redux store is reads ;   And Handover to the react App.                                  
+
