@@ -19,7 +19,35 @@ step 3--->    redux folder  in that store.js file
               messages            message.js  
               redux                store.js
               message              message.action.js
-                                   message.reader.js
+                                   message.reduSer.js
 
 step 4---->    Redux store is reads ;   And Handover to the react App.                                  
 
+
+                                // How to dispatch an action                 
+
+
+                 useDispatch()  Hook
+   What is redux action?
+
+    action is a (impure )function 
+    return actionnable object
+
+ What is reducer?
+
+    -- Reducer is pure function
+       takes two parameters--->1  State, 2  action
+
+ What is pure vs impure function?
+
+
+
+
+
+
+
+
+
+
+ How to handover store to React app?
+                                      

@@ -9,7 +9,7 @@ let Users=()=>{
             
          
     //   }
-    useEffect(()=>{                                                // executed automatically after  let[users,Setusers]=useState([]) then return , and noeed to use of button
+    useEffect(()=>{                                                // executed automatically after  let[users,Setusers]=useState([]) then return , and need to use of button
         Axios.get('https://jsonplaceholder.typicode.com/users')
         .then((resp)=>{
             console.log(resp)
