@@ -24,7 +24,7 @@ step 3--->    redux folder  in that store.js file
 step 4---->    Redux store is reads ;   And Handover to the react App.                                  
 
 
-                                // How to dispatch an action                 
+                                // How to dispatch an Action                 
 
 
                  useDispatch()  Hook
