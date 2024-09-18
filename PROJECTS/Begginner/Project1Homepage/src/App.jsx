@@ -4,8 +4,10 @@ import HeroSection from './Components/HeroSection'
 import './App.css'
 let App=()=>{
  return <>
-       <Navigation/>
+       <Navigation/>          
        <HeroSection/>
      </>
 }
 export default App
+
+// This is a App component
