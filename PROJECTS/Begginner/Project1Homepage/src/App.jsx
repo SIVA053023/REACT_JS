@@ -10,4 +10,4 @@ let App=()=>{
 }
 export default App
 
-// This is a App component
+// This is a App component which is the heart of the project
