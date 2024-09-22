@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: solid black 1px ; */
 }
 nav{
     max-width: 1280px;
@@ -9,13 +10,22 @@ nav{
     align-items: center;
     margin: auto; 
     max-height: 70px;
+    border: solid black 1px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, blue,red);
+    
 }
+
 nav ul{
 display: flex;
 gap: 20px;
 align-items: center;
 justify-content: center;
 list-style: none;
+color: red;
+
+
 
 }
 #loginbtn{
@@ -35,6 +45,8 @@ list-style: none;
     max-width: 1280px;
     margin: auto;
     border-radius: 25px;
+    border: solid black 1px;
+    margin-top: 50px;
     
     
 }
@@ -79,9 +91,16 @@ button{
     padding: 2px;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 
 }
 a img{
     width: 75px;
     height: auto;
+    background: black;
+    border: solid black 1px;
+    border-radius: 25px;
+    border-style: none;
+    hover:
+    
 }

@@ -14,7 +14,7 @@ const Maincontent = () => {
              with our shoes.Your feet is our responsibility to enhance your style <br />
              with our shoes</p>
              <button>Add tocart</button> <button>HurryUp</button>
-
+   
              <p>Also you can buy from</p>
              <div className='brands'>
                 <img src={amazon} alt="" />
