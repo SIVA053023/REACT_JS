@@ -1,3 +1,5 @@
+// Here we are creating a table
+
 let Employee=()=>{
     let Employees=[{id:101,ename:"Siva",email:"Siva053@gamil.com"},
         {id:102,ename:"Krishna",email:"Krishna023@gmail.com"}
