@@ -1,7 +1,7 @@
-
+import one from './navigation.module.css'
 let Navigation=()=>{
     return <>
-            <nav className="navbar">
+            <nav className={one.navbar}>
                 <a href="#"><img src="/Images/Logo.avif" alt="" className="logo" /></a>
                 <ul>
                     <li href="#">Home</li>

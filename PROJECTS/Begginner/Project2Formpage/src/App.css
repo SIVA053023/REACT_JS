@@ -1,4 +1,4 @@
-  nav{
+  /* nav{
     justify-content:center;
     align-items: center;
     display: flex;
@@ -6,7 +6,7 @@
     margin: auto;
     max-width: 1280px;
     
-  }
+  } */
   nav ul{
     display: flex;
     list-style: none;
