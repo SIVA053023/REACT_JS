@@ -1,0 +1,35 @@
+
+.contactform{
+  
+}
+.container{
+    display: flex;
+    margin:  auto;
+    max-width: 1000px;
+}
+.contactimage{
+    width: 500px;
+    height: 500px;
+}
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+.form_controller{
+    position: relative;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.form_controller label{
+    position: absolute;
+    top: -10px;
+    margin: 0px 8px;
+    background-color: white;
+
+}
+.form_controller input{
+    height: 30px;
+    width: 100%;
+    padding: 0 8px;
+}

@@ -1,9 +1,9 @@
-import one from './navigation.module.css'
+import style from './navigation.module.css'
 let Navigation=()=>{
     return <>
-            <nav className={one.navbar}>
-                <a href="#"><img src="/Images/Logo.avif" alt="" className="logo" /></a>
-                <ul>
+            <nav className={style.navbar}>
+                <a href="#"><img src="/Images/Logo.avif" alt="" className={style.logo} /></a>
+                <ul className={style.ul}>
                     <li href="#">Home</li>
                     <li href="#">About</li>
                     <li href="#">Services</li>

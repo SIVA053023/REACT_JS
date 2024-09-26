@@ -1,9 +1,16 @@
-import Navigation from "./Components/Navigation"
-import './App.css'
+import Navigation from "./Components/Navigation/Navigation"
+// import './App.css'
+import ContactHeader from "./Components/ConatctHeader/ContactHeader"
+
+import Contactform from "./Components/Contactform/Contactform"
 
 let App=()=>{
   return <div>
     <Navigation/>
+    <ContactHeader/>
+    <Contactform/>
+   
+    
   </div>
 }
 
