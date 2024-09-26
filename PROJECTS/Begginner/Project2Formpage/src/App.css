@@ -1,9 +1,8 @@
-  /* nav{
-    justify-content:center;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 1280px;
-    
-  } */
+
+.main_container{
+  max-width: 1280px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  height:calc(100vh - 72px) ;
+}
