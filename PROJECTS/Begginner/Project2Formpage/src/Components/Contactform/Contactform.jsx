@@ -16,6 +16,7 @@ const Contactform = () => {
 
   let onsubmit=(e)=>{
     e.preventDefault();
+  
 
     setName(e.target.Name.value);
     setemail(e.target.email.value);
@@ -51,7 +52,7 @@ const Contactform = () => {
                     
 
                   }} >
-                 <Button  text="SUBMIT BUTTON"/>   {/* here we are using the isouterline={true} boolean */}
+                 <Button  text="SUBMIT BUTTON"/>   {/* here we are using the isouterline={true} boolean to check the condition */}
                  </div>
                  <div>
                  <h3>{Name}{",  "}
