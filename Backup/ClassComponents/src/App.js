@@ -1,14 +1,14 @@
 import react from 'react'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-import Slider from './Components/Slider'
+import Slider from './Components/Slider'      //here we are importing the slider
 
 
 
 class App extends react.Component{
     render(){
         return <div>
-            <h1>This is a App Component</h1>
+            <h1>This is a App Component</h1>  
             <Footer/>
             <Header/>
             <Slider/>
