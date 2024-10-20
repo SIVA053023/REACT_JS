@@ -1,0 +1,26 @@
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+    
+}
+li{
+    width: 70px;
+    height: auto;
+    background: linear-gradient(45deg,red,blue);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li:hover{
+    background:white;
+}
