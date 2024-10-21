@@ -6,4 +6,4 @@ let App=()=>{
     <Message/>
     </>
 }
-export default App
+export default App // here we are exporting the App component
