@@ -13,14 +13,20 @@ ul{
     
 }
 li{
-    width: 70px;
+    width: auto;
     height: auto;
     background: linear-gradient(45deg,red,blue);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size:25px;
+    padding: 10px;
+    transition:  background-color 0.2s ease-in, font-size 0.3s ease-in-out;
+  
 }
 li:hover{
     background:white;
+    font-size: 35px;
+ 
 }
