@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const RollDice = () => {
   const [currentDice,setCurrentDice]=useState(1);
+
   const GenerateRandomNumber=(min,max)=>{
     console.log(Math.floor(Math.random() * (max-min) + min) )
    return Math.floor(Math.random ()* (max-min) + min) 
