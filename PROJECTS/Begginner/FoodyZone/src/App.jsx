@@ -1,26 +1,38 @@
-import React from 'react'
-import styled from 'styled-components'
+// import React from 'react'
+// // import styled from 'styled-components'
+// import HeaderComponent from './Components/HeaderComponent'
+
+// const App = () => {
+//   return (
+//      <>
+//      <HeaderComponent/>
+//      </>
+   
+//   )
+// }
+
+// export default App
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HeaderComponent from './Components/Header/HeaderComponent';
+import Home from './Pages/Home/Home'
+import About from './Pages/About/About'
+import Services from './Pages/Services/Services'
+import Contact from './Pages/Contact/Contact'
 
 const App = () => {
   return (
-    <MainContainer>
-      <div className="TopContainer">
-      <div className="logo">
-          <img src="/logo.svg" alt="logo" />
-        </div>
-        <div className="search">
-        <input type="text" name="" id="" placeholder='search foood'/>
-        </div>
-      </div>
-      <h1>App component</h1>
-    </MainContainer>
-   
-  )
-}
+    <Router>
+      <HeaderComponent />
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Services" element={<Services />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
 
-const MainContainer=styled.div`
-background-color: balck;
-  
-`
