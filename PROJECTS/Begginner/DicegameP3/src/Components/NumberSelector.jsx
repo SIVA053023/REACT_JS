@@ -37,6 +37,7 @@ font-weight: 700px;
 border-radius: 15px;
 background-color: ${(props)=> (props.isSelected ? "black" : "white")};
 color: ${(props)=> (props.isSelected ? "white" : "black")};
+
    
 `
 const Num=styled.div`
