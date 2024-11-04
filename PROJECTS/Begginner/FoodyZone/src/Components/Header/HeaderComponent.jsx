@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Header.css'
+import Categories from '../Categories/Categories'
 
 const HeaderComponent = () => {
   return (
@@ -14,6 +15,7 @@ const HeaderComponent = () => {
       </div>
       
     </div>
+    <Categories/>
   </>
 
   )
